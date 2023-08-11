@@ -17,7 +17,10 @@ body {
 
 /* Header */
 header {
+    height: 80px;
     background-image: url("../images/pexels-henry-&-co-2344227_sky_cropped.jpg");
+    background-size: cover;
+    background-position: center;
 
 }
 
