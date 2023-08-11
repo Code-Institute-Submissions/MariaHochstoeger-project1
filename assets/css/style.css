@@ -13,7 +13,12 @@ body {
     flex-direction: column;
     /* Generic styles */
     font-family: 'Poppins', sans-serif;
+}
 
+h2, h3 {
+    font-family: 'REM', sans-serif;
+    color: #0056b0;
+    text-transform: capitalize;
 }
 
 /* Header */
