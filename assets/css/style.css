@@ -1,18 +1,30 @@
-/* Remove default style */
+/* Remove default style with asterisk selector */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+/* General styles */
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic styles */
+
+}
+
 /* Header */
 header {
-    background-color: #a2c5e0;
+    background: url("../images/pexels-henry-&-co-2344227_sky_cropped.jpg");
+
 }
 
 /* Main */
 main {
     background-color: #fcfcd4;
+    flex-grow: 1;
 }
 
 /* Footer */
