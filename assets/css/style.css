@@ -17,13 +17,14 @@ body {
 
 /* Header */
 header {
-    background: url("../images/pexels-henry-&-co-2344227_sky_cropped.jpg");
+    background-image: url("../images/pexels-henry-&-co-2344227_sky_cropped.jpg");
 
 }
 
 /* Main */
 main {
     background-color: #fcfcd4;
+    /* Main element to take up all remaining space */
     flex-grow: 1;
 }
 
