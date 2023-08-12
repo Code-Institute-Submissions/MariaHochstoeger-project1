@@ -15,6 +15,10 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+h1 {
+    text-transform: uppercase;
+}
+
 h2, h3 {
     font-family: 'REM', sans-serif;
     color: #0056b0;
@@ -23,7 +27,6 @@ h2, h3 {
 
 /* Header */
 header {
-    height: ;
     background-image: url("../images/pexels-henry-&-co-2344227\ \(2\).jpg");
     background-size: cover;
     background-position: center;
