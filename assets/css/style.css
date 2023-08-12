@@ -68,6 +68,7 @@ main {
     background-color: #fcfcd4;
     /* Main element to take up all remaining space */
     flex-grow: 1;
+    margin-top: 88px;
 }
 
 /* Footer */
@@ -93,5 +94,9 @@ footer {
         font-size: 120%;
         margin-left: 10px;
         letter-spacing: 1px;
+    }
+
+    main {
+        margin-top: 72px;
     }
 }
