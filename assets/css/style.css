@@ -73,11 +73,15 @@ main {
 
 /* Footer */
 footer {
-    background-color: #fcfcd4;
-    color: #0056b0;
-    font-size: 200%;
+    background-color: #e6f4f1;
+    font-size: 150%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    padding: 10px 0;
+}
+
+footer a i {
+    color:#0056b0;
 }
 
 /* Media queries */
