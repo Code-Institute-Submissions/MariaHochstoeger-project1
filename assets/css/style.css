@@ -23,7 +23,7 @@ h2, h3 {
 
 /* Header */
 header {
-    height: 80px;
+    height: ;
     background-image: url("../images/pexels-henry-&-co-2344227\ \(2\).jpg");
     background-size: cover;
     background-position: center;
@@ -40,4 +40,12 @@ main {
 /* Footer */
 footer {
     background-color: #0056b0;
+}
+
+/* Media queries */
+
+/* For tablets and larger (min 768px) */
+
+@media screen and (min-width: 768px) {
+    
 }
