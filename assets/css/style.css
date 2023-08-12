@@ -90,6 +90,15 @@ main {
     border-radius: 50%;
 }
 
+#welcome-text {
+    padding: 10px 30px 30px;
+    text-align: center;
+}
+
+#welcome-text h3 {
+    padding: 20px 0;
+}
+
 /* Footer */
 footer {
     background-color: #e6f4f1;
