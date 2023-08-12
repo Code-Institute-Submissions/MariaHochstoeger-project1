@@ -68,7 +68,26 @@ main {
     background-color: white;
     /* Main element to take up all remaining space */
     flex-grow: 1;
+    /* Push main below header */
     margin-top: 88px;
+}
+
+#welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+#headshot {
+    background: url("../images/pexels-monstera-5876516.jpg") no-repeat center center /
+     cover;
+    
+    border: solid 0.5px #e6f4f1;
+    height: 90vw;
+    width: 90vw;
+    border-radius: 50%;
 }
 
 /* Footer */
