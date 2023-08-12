@@ -19,12 +19,7 @@ nav {
     color: #0056b0;
 }
 
-h2, h3 {
-    font-family: 'REM', sans-serif;
-    color: #0056b0;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
+
 
 /* Header */
 header {
@@ -41,6 +36,21 @@ header {
 header a {
     text-decoration: none;
     color: #0056b0;
+}
+
+h2, h3 {
+    font-family: 'REM', sans-serif;
+    color: #0056b0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+.active {
+    border-bottom: 1px solid #0056b0;
 }
 
 /* Main */
