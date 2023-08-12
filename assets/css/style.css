@@ -44,6 +44,11 @@ h2, h3 {
     letter-spacing: 1px;
 }
 
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
 #menu {
     list-style-type: none;
 }
@@ -51,18 +56,6 @@ h2, h3 {
 .active {
     border-bottom: 1px solid #0056b0;
 }
-
-/* Nav bar */
- nav {
-    position:absolute;
-    background-color: #a2c5e0;
-    /*background-image: url("../images/pexels-henry-&-co-2344227\ \(2\).jpg");*/
-    width: 100%;
-    left:0;
-    padding: 0 1rem;
-    box-shadow: 0 2px 2px #0056b0;
-    display:none;
- }
 
 
 /* Main */
