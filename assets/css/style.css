@@ -23,7 +23,7 @@ h2, h3 {
     font-family: 'REM', sans-serif;
     color: #0056b0;
     text-transform: uppercase;
-    text-decoration: none;
+    letter-spacing: 1px;
 }
 
 /* Header */
@@ -36,6 +36,11 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #0056b0;
+}
+
+header a {
+    text-decoration: none;
+    color: #0056b0;
 }
 
 /* Main */
