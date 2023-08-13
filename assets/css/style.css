@@ -81,7 +81,7 @@ main {
 }
 
 #headshot-bg {
-    background: url("../images/pexels-monstera-5876516.jpg") no-repeat center center /
+    background: url("../images/Himanshu_headshot.jpg") no-repeat center center /
      cover;
     border: solid 0.5px #e6f4f1;
     height: 90vw;
@@ -107,7 +107,7 @@ main {
     justify-content: center;
     align-items: center;
     padding-top: 30px;
-    
+
 }
 
 .about-child {
