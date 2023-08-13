@@ -101,12 +101,22 @@ main {
 }
 
 /* About page */ 
-#about-container {
-    dispay: flex;
+#about {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 90%;
+    padding-top: 30px;
+    
+}
+
+.about-child {
+    margin-top: 20px;
+}
+
+.about-child li {
+   padding-left: 20px;
+   text-decoration: none;
 }
 
 /* Footer */
