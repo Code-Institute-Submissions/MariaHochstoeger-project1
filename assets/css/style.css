@@ -1,5 +1,5 @@
 /* Google Fonts import */
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,300&family=REM&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,300&family=REM&display=swap');
 
 
 /* Remove default style with asterisk selector */
@@ -69,6 +69,7 @@ main {
     /* Main element to take up all remaining space */
     flex-grow: 1;
     /* Push main below header */
+    display: flex;
     margin-top: 88px;
 }
 
@@ -139,7 +140,6 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
 }
 
 #patient-details {
@@ -149,7 +149,6 @@ main {
     align-items: center;
 }
 
-/* #practice */
 
 /* Footer */
 footer {
