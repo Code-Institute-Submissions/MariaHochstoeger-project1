@@ -124,6 +124,33 @@ main {
     text-decoration: none;
 }
 
+/* About page */
+#get-in-touch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    width: 90vw;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#patient-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* #practice */
+
 /* Footer */
 footer {
     background-color: #e6f4f1;
