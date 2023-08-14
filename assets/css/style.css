@@ -72,6 +72,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     margin-top: 88px;
 }
 
@@ -114,10 +115,16 @@ main {
     align-items: center;
     padding-top: 30px;
     width: 90vw;
+    border: solid;
 }
 
 .about-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-top: 20px;
+    border: solid;
 }
 
 .about-child li {
@@ -202,5 +209,9 @@ footer a i {
     #welcome {
         display: flex;
         flex-direction: row;
+    }
+
+    #headshot {
+        margin-left: 2rem;
     }
 }
