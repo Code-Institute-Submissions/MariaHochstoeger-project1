@@ -89,7 +89,7 @@ main {
 #headshot-bg {
     background: url("../images/Himanshu_headshot.jpg") no-repeat center center /
      cover;
-    border: solid 0.5px #e6f4f1;
+    border: solid 1.5px #e6f4f1;
     height: 90vw;
     width: 90vw;
     max-width: 400px;
@@ -100,7 +100,6 @@ main {
 #welcome-text {
     padding: 10px 30px 30px;
     text-align: center;
-
 }
 
 #welcome-text h3 {
@@ -209,9 +208,12 @@ footer a i {
     #welcome {
         display: flex;
         flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0 30px 0;
     }
 
-    #headshot {
-        margin-left: 2rem;
+    #welcome-text {
+        max-width: 800px;
     }
 }
