@@ -122,10 +122,11 @@ main {
 }
 
 .about-child {
+    /*flex: 1;*/
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    /*justify-content: center;
+    align-items: center;*/
     margin-top: 30px;
     border: solid red;
 }
@@ -230,9 +231,10 @@ footer a i {
         font-size: 140%;
     }
 
-    #about {
+   
+    /*#about {
         max-width: 500px;
-    }
+    }*/
 }
 
 /* For laptops and larger (min 1024px) */
@@ -250,14 +252,19 @@ footer a i {
         max-width: 800px;
     }
 
-    #about {
+    /*#about {
         max-width: 900px;
-    }
+    }*/
+
     #about-container {
         display: flex;
         flex-direction: row;
         align-items: flex-start;
     }
 
-    
+    .about-child {
+        flex:1;
+    }
+
+
 }
