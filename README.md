@@ -47,6 +47,7 @@ The site has very basic features of a static website.
 
 - Imported Google Fonts into html via <link>. This caused css-classes and -ids to not be applied. Fixed it by removing Google Fonts link from index.html and instead importing Google Fonts into style.css.
 - Fixed flexbox-styling by applying differently colored borders to better understand the individual elements' behaviours
+- The boxes on the about page wouldn't 
 
 ## Sources
 
@@ -57,3 +58,5 @@ The site has very basic features of a static website.
 
 ## Credits
 - Holly from Tutor Support for spotting a space in the import of my Google Fonts which caused problems with my styling
+- https://css-tricks.com/dont-overthink-flexbox-grids/ for helping me figure out how to get the flexbox on my about page to produce same-width children
+- https://www.w3schools.com/cssref/pr_list-style-position.php for helping me get the bullet points of my list inside the flex container
