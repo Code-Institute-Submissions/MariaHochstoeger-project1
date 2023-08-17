@@ -128,6 +128,8 @@ main {
 }
 
 #formats-image {
+    /* Set background-color in case image doesn't load */
+    background-color: #a2c5e0;
     background: url("../images/Blue-sky-with-little-white-flowers.jpg") no-repeat center center /
      cover;
     border: solid 1.5px #e6f4f1;
@@ -141,6 +143,8 @@ main {
 }
 
 #specializations-image {
+    /* Set background-color in case image doesn't load */
+    background-color: #a2c5e0;
     background: url("../images/Blue-sky-with-sunflowers.jpg") no-repeat center center /
      cover;
     border: solid 1.5px #e6f4f1;
@@ -154,6 +158,8 @@ main {
 }
 
 #costs-image {
+    /* Set background-color in case image doesn't load */
+    background-color: #a2c5e0;
     background: url("../images/Blue-sky-with-flower.jpg") no-repeat center center /
      cover;
     border: solid 1.5px #e6f4f1;

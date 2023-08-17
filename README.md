@@ -63,7 +63,7 @@ The site has the very basic features of a static website.
 
 - Give the user more options with the form
 
-    I would like to give the site visitor the option to choose whether they would like to be contacted via email or via phone, and if phone, at which times
+    I would like to give the site visitor the option to choose whether they would like to be contacted via email or via phone, and if phone, at which times.
 
 
 ## Bugs
