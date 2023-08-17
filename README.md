@@ -65,12 +65,71 @@ The site has the very basic features of a static website.
 
     I would like to give the site visitor the option to choose whether they would like to be contacted via email or via phone, and if phone, at which times.
 
+## UX
 
-## Bugs
+### Site Goals
+
+The site wants to attract people who face mental or psychological challenges in their lives and are looking for professional help from a qualified psychotherapist. Particularly, the site should speak to English- or Hindi-speaking people located in Vienna, or who would like to try psychotherapy online. 
+
+### User Stories
+
+**As a site visitor:**
+
+- I want to confirm that Dr. Giri is a qualified psychotherapist.
+- I want to know which languages Dr. Giri speaks.
+- I want to learn about the types of sessions he offers.
+- I want to know how much a session costs.
+- I want to find out whether Dr. Giri specializes in the field which applies to me.
+- I want to see where Dr. Giri is located.
+- I want to be able to get in contact with Dr. Giri in the manner that I choose to.
+- I want to see a mobile-friendly layout and responsive design.
+
+**As the site administrator:**
+
+- I want to be able to easily update information such as pricing or location.
+- I want to be able to add new content such as videos.
+
+## Testing
+
+- I confirmed that this project is responsive and looks good on various common screen sizes by using the devtools devices toolbar.
+- I have confirmed that the form works and each field is required. There are error messages if a field is not filled out. If it is filled incorrectly, such as an @ missing in an email, or the phone number field containing letters, there are appropriate error messages.
+- I confirmed that header and navbar are easily readable and understandable.
+
+### Bugs
 
 - Imported Google Fonts into html via <link>. This caused css-classes and -ids to not be applied. Fixed it by removing Google Fonts link from index.html and instead importing Google Fonts into style.css.
-- Fixed flexbox-styling by applying differently colored borders to better understand the individual elements' behaviours
-- The boxes on the about page wouldn't 
+- Fixed flexbox-styling by applying differently colored borders to better understand the individual elements' behaviours. Border colors were removed after fixing the styling.
+
+### Unfixed Bugs
+
+- None.
+
+### Validator Testing
+
+- HTML ([W3C Validator] (https://validator.w3.org/))
+    - No error found.
+
+- CSS ([Jigsaw] (https://jigsaw.w3.org/css-validator/))
+    - No error found.
+
+- Performance, Accessibility, Best Practices, SEO (Lighthouse Chrome Dev Tools)
+    - 
+
+### Browser Testing (section taken from Kay Welfare, results are my own)
+
+**Layout:** Testing layout and appearance of site for consistency throughout browsers.
+
+**Functionality:** Ensuring all links, navigation and form submit functions as expected throughout browsers.
+
+| Browser     | Layout      | Functionality |
+| :---------: | :----------:| :-----------: |
+| Chrome      | ✔          | ✔             |
+| Edge        | ✔          | ✔             |
+| Firefox     | ✔          | ✔             |
+| Safari      | not available to me         |
+| IE          |deprecated by Microsoft, not tested|
+
+
 
 ## Sources
 
@@ -86,3 +145,4 @@ The site has the very basic features of a static website.
 - https://css-tricks.com/dont-overthink-flexbox-grids/ for helping me figure out how to get the flexbox on my about page to produce same-width children
 - https://www.w3schools.com/cssref/pr_list-style-position.php for helping me get the bullet points of my list inside the flex container
 - Our group facilitator, Kay Welfare, for her patience and genuine efforts to help. And for not getting tired to repeat certain points over and over again.
+- Again, Kay Welfare, for sharing her readme with us.
