@@ -1,6 +1,6 @@
 # Himanshu Giri - Psychotherapy Practice
 
-![responsive mock-up] (https://github.com/MariaHochstoeger/project1/blob/main/assets/images/readme-images/Mockup%20different%20devices.png?raw=true)
+![responsive mock-up] (assets/images/readme-images/Mockup different devices.png)
 
 This is the website of Dr. Himanshu Giri, an English- and Hindi-speaking psychotherapist with a practice in Vienna, Austria. He also offers sessions online.
 The site is targeted at adults who are seeking professional help in overcoming mental challenges and want to find out whether Dr. Giri could be the right person to provide the support they seek.
@@ -59,6 +59,8 @@ The site has very basic features of a static website.
 
 - Love Running walk-through project for basic structures of header and footer
 - Favicon was generated using favicon.cc 
+- The mock-up image of the site on different devices was generated using techsini.com
+
 
 ----
 
@@ -66,3 +68,4 @@ The site has very basic features of a static website.
 - Holly from Tutor Support for spotting a space in the import of my Google Fonts which caused problems with my styling
 - https://css-tricks.com/dont-overthink-flexbox-grids/ for helping me figure out how to get the flexbox on my about page to produce same-width children
 - https://www.w3schools.com/cssref/pr_list-style-position.php for helping me get the bullet points of my list inside the flex container
+- Our group facilitator, Kay Welfare, for her patience and genuine efforts to help. And for not getting tired to repeat certain points over and over again.
