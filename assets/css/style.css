@@ -113,14 +113,63 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 30px 0;
+    /*padding: 30px 0;*/
     width: 90vw;
+    /* Make sure that heading is not pushed directly against header */
+    margin-top: 30px;
+    border: solid green;
+}
+
+#about-container {
+    border: solid orange;
+    
 }
 
 .about-child {
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin-top: 30px;
+    border: solid red;
+}
+
+#formats-image {
+    background: url("../images/Blue-sky-with-little-white-flowers.jpg") no-repeat center center /
+     cover;
+    border: solid 1.5px #e6f4f1;
+    height: 70vw;
+    width: 70vw;
+    max-width: 200px;
+    max-height: 200px;
+    /* Make image a circle */
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+#specializations-image {
+    background: url("../images/Blue-sky-with-sunflowers.jpg") no-repeat center center /
+     cover;
+    border: solid 1.5px #e6f4f1;
+    height: 70vw;
+    width: 70vw;
+    max-width: 200px;
+    max-height: 200px;
+    /* Make image a circle */
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+#costs-image {
+    background: url("../images/Blue-sky-with-flower.jpg") no-repeat center center /
+     cover;
+    border: solid 1.5px #e6f4f1;
+    height: 70vw;
+    width: 70vw;
+    max-width: 200px;
+    max-height: 200px;
+    /* Make image a circle */
+    border-radius: 50%;
+    margin-bottom: 20px;
 }
 
 .about-child h3 {

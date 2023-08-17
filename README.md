@@ -42,6 +42,10 @@ The site has very basic features of a static website.
     - A form encourages visitors to leave their contact details for Dr. Giri to get in touch with them directly.
     - Should the site visitor choose to contact Dr. Giri themselves, they are provided with the address, electronic and phone details. The email address is provided as a link.
 
+### Possible Future Features
+
+- Make the costs on the about page into a table
+
 
 ## Bugs
 
