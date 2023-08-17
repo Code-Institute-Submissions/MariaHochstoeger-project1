@@ -1,6 +1,6 @@
 # Himanshu Giri - Psychotherapy Practice
 
-![responsive mock-up] ()
+![responsive mock-up] (https://github.com/MariaHochstoeger/project1/blob/main/assets/images/readme-images/Mockup%20different%20devices.png?raw=true)
 
 This is the website of Dr. Himanshu Giri, an English- and Hindi-speaking psychotherapist with a practice in Vienna, Austria. He also offers sessions online.
 The site is targeted at adults who are seeking professional help in overcoming mental challenges and want to find out whether Dr. Giri could be the right person to provide the support they seek.
