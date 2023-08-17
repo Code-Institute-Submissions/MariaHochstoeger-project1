@@ -182,17 +182,10 @@ main {
     list-style-position: inside;
 }
 
-
-
 /* About page */
 
 #get-in-touch {
-    /*display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;*/
     width: 90vw;
-    border: solid orange;
     /* Make sure the bottom doesn't stick to the footer */
     margin-bottom: 30px;
 }
@@ -206,19 +199,10 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: solid pink;
 }
 
 .contact h3 {
     padding: 30px 0 10px;
-}
-
-#patient-details {
-    /*display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;*/
-  
 }
 
 form {
@@ -227,17 +211,18 @@ form {
 
 input {
     height: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 button {
-    font-size: 120%;
+    font-size: 130%;
     color:#0056b0;
     border: #0056b0 solid 2px;
     background-color:#e6f4f1;
     border-radius: 10px;
     padding: 5px;
-    margin-top: 20px;
-    align-self: center;
+    margin-top: 10px;
 }
 
 
