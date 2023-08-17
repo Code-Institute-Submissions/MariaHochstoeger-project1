@@ -9,7 +9,7 @@ Visit the site [here] (https://mariahochstoeger.github.io/project1/index.html).
 
 ## Design
 
-The site was created with persons in mind who, possibly in a time of distress, are looking for help in the form of psychotherapy. The necessary information should be easy to find and give the visitor a good picture of who Dr. Himanshu Giri is and what he can offer. At the same time, a good balance needs to be struck so as to not reveal too much information as the therapist and his/her background should not interfere with the therapy process.
+The site was created with persons in mind who, possibly in a time of distress, are looking for help in the form of psychotherapy. The necessary information should be easy to find and give the visitor a good picture of who Dr. Himanshu Giri is and what he can offer. At the same time, a balance needs to be struck so as to not reveal too much information as the therapist and his/her background should not interfere with the therapy process.
 
 ### Wireframes
 
@@ -18,11 +18,11 @@ The first wireframes were made in Balsamiq. Laptop screen sizes were chosen for 
 ### Font and Colour Choices
 **Fonts:** 'REM' was chosen as the headings font for its professional yet not intimidating look. 'Poppins' makes up the main part of the site due to it being a quite neutral but still friendly font.
 
-**Colours:** The colour palette was generated using mycolor.space. The base colour was picked from the header picture (taken from Pexel) which shows a blue sky with some whispy clouds. This particular colour palette was chosen for its calming blue tones.
+**Colours:** The colour palette was generated using mycolor.space. The base colour was picked from the header picture (taken from Pexel) which shows a blue sky with some clouds. This particular colour palette was chosen for its calming blue tones.
 
 ## Features
 
-The site has very basic features of a static website.
+The site has the very basic features of a static website.
 
 - **Navigation Bar**
     - The navigation bar is always visible on all pages. In the top left corner the logo is a link which brings the user back to the home page, as a user would expect it to.
@@ -38,17 +38,32 @@ The site has very basic features of a static website.
     - The welcome text gives the user a first understanding of what Dr. Giri offers.
     - Layout is vertical for smaller screens and horizontal to make good use of larger screens.
 
--**About page**
+- **About page**
     - The informations that site visitors will mostly look for is listed in clear lists, using bullet points where too many items make up the list.
     - Layout is vertical for smaller screens and horizontal to make good use of larger screens.
 
--**Contact page**
+- **Contact page**
     - A form encourages visitors to leave their contact details for Dr. Giri to get in touch with them directly.
-    - Should the site visitor choose to contact Dr. Giri themselves, they are provided with the address, electronic and phone details. The email address is provided as a link.
+    - Should the site visitor choose to contact Dr. Giri themselves, they are provided with the address, email and phone details. The email address is provided as a link.
+
+- **Footer**
+    - The footer contains three icons which link to external social media sites.
+    - The links open in new tabs, making it easy for users to come back to the site of Dr. Giri.
+    - The footer is consistent throughout the pages.
 
 ### Possible Future Features
 
-- Make the costs on the about page into a table
+- Include a video
+
+    Dr. Giri has given a Ted Talk. I would like to embed this video directly on the about page.
+
+- Streamline the about page
+
+    Make the costs on the about page into a table giving an easier overview to the site visitor.
+
+- Give the user more options with the form
+
+    I would like to give the site visitor the option to choose whether they would like to be contacted via email or via phone, and if phone, at which times
 
 
 ## Bugs
