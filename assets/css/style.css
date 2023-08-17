@@ -266,6 +266,15 @@ footer a i {
 
 }
 
+/* For tablets up to small laptops (min 768px, max 1023px) */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    #specializations ul {
+        /* Ensure that the ul does not spread out too much on wider screens while about-page format is kept as a column */
+        max-width: 400px;
+    }
+}
+
 /* For laptops and larger (min 1024px) */
 
 @media screen and (min-width: 1024px) {
