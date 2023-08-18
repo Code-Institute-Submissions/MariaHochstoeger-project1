@@ -382,7 +382,7 @@ footer a i {
     }
 
     input {
-        min-width: none;
+        min-width: 100px;
     }
 }
 
