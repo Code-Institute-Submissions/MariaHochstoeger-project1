@@ -1,6 +1,6 @@
 # Himanshu Giri - Psychotherapy Practice 
 
-![responsive mock-up](assets/images/readme-images/mockup%20different%20devices.png)
+![responsive mock-up](assets/images/readme-images/mockup-different-devices.png)
 
 This is the website of Dr. Himanshu Giri, an English- and Hindi-speaking psychotherapist with a practice in Vienna, Austria. He also offers sessions online.
 The site is targeted at adults who are seeking professional help in overcoming mental challenges and want to find out whether Dr. Giri could be the right person to provide the support they seek.
@@ -20,6 +20,8 @@ The first wireframes were made in Balsamiq. Laptop screen sizes were chosen for 
 
 **Colours:** The colour palette was generated using mycolor.space. The base colour was picked from the header picture (taken from Pexel) which shows a blue sky with some clouds. This particular colour palette was chosen for its calming blue tones.
 
+**Images:** Images chosen are either of Dr. Giri, or of Vienna, or of a blue sky backdrop with plants in the foreground for their calming nature.
+
 ## Features
 
 The site has the very basic features of a static website.
@@ -29,28 +31,49 @@ The site has the very basic features of a static website.
     - The page which is currently active is underlined in the header.
     - Depending on the screen format, the navigation bar is split into two lines or spaced onto a single line (tablets and wider).
 
+    ![Navigation Bar](assets/images/readme-images/navigation-bar.png)
+
+- **Hero image**
+    - The hero image was chosen as it depicts the Schönbrunn castle, one of Vienna's most famous sites. 
+    - The relation to Vienna was deemed to be important as this is an English-language website targeted mostly at people located in Vienna. This way, people immediately get an association with Vienna even though the site is not in German language.
+    - Since the rest of the site is quite calm and quiet, I decided to keep the image at full opacity to make it pop.
+
+    ![Hero image](assets/images/readme-images/hero-image.png)
+
 - **Main section**
     - The structure of the main content is consistent throughout the pages to make them easy to understand and navigate with subheaders giving cues about the content of the individual parts.
     - Content varies depending on the page. Texts are kept short to help the user find information quickly.
 
-- **Home page**
+- **Home page and call to action**
     - A picture of Dr. Himanshu Giri greets the user to give them a feeling for who he might be. It is rounded for a softer look.
     - The welcome text gives the user a first understanding of what Dr. Giri offers.
     - Layout is vertical for smaller screens and horizontal to make good use of larger screens.
+    - A call to action motivates the user to book a session. The button is a link which directs the user to the contact page.
+
+    ![Home page including headshot of Dr Giri, welcome text and call to action](assets/images/readme-images/home-page-incl-headshot-text-and-call-to-action.png)
 
 - **About page**
+    - Images are kept in line with the theme of the site of the blue sky.
     - The informations that site visitors will mostly look for is listed in clear lists, using bullet points where too many items make up the list.
+    - Little icons give a playful vibe, giving lightness to heavy issues.
     - Layout is vertical for smaller screens and horizontal to make good use of larger screens.
+
+    ![About page](assets/images/readme-images/about-page.png)
 
 - **Contact page**
     - A form encourages visitors to leave their contact details for Dr. Giri to get in touch with them directly.
     - Should the site visitor choose to contact Dr. Giri themselves, they are provided with the address, email and phone details. The email address is provided as a link.
     - On larger screens, the contact information changes order and is displayed horizontally for a cleaner look.
+    - Input fields of the form are slightly enlarged where possible to give the user more space to fill in their information.
+
+    ![Contact page](assets/images/readme-images/contact-page.png)
 
 - **Footer**
     - The footer contains three icons which link to external social media sites.
     - The links open in new tabs, making it easy for users to come back to the site of Dr. Giri.
     - The footer is consistent throughout the pages.
+
+    ![Footer](assets/images/readme-images/footer.png)
 
 ### Possible Future Features
 
@@ -80,7 +103,7 @@ The site wants to attract people who face mental or psychological challenges in 
 - I want to know which languages Dr. Giri speaks.
 - I want to learn about the types of sessions he offers.
 - I want to know how much a session costs.
-- I want to find out whether Dr. Giri specializes in the field which applies to me.
+- I want to find out whether Dr. Giri specializes in the field which I struggle with.
 - I want to see where Dr. Giri is located.
 - I want to be able to get in contact with Dr. Giri in the manner that I choose to.
 - I want to see a mobile-friendly layout and responsive design.
@@ -107,10 +130,10 @@ The site wants to attract people who face mental or psychological challenges in 
 
 ### Validator Testing
 
-- HTML ([W3C Validator] (https://validator.w3.org/))
+- HTML ([W3C Validator](https://validator.w3.org/))
     - No error found.
 
-- CSS ([Jigsaw] (https://jigsaw.w3.org/css-validator/))
+- CSS ([Jigsaw](https://jigsaw.w3.org/css-validator/))
     - No error found.
 
 - Performance, Accessibility, Best Practices, SEO (Lighthouse Chrome Dev Tools)
