@@ -255,11 +255,25 @@ form {
     padding: 10px 0;
 }
 
+#form-layout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 input {
     height: 30px;
     border-radius: 10px;
     margin-bottom: 20px;
+    /*min-width: 200px;*/
 }
+
+/*#patient-details {
+    border: solid yellow;
+    display: flex;
+    flex-direction: column;
+}*/
 
 button {
     font-size: 130%;
@@ -311,6 +325,18 @@ footer a i {
         font-size: 140%;
     }
 
+    #input-fields {
+        display: flex;
+    }
+
+    .column {
+        /* Make two columns in form */
+        flex:50%;
+        border: red solid;
+        min-width: fit-content;
+        padding: 0 10px;
+    }
+    
 }
 
 /* For tablets up to small laptops (min 768px, max 1023px) */

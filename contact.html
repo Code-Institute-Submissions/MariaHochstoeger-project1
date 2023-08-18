@@ -37,20 +37,28 @@
                 <p><em>Taking the first step can be hard. Leave your details and we will contact you.
                     <br>
                     Or contact us via the contact details.</em></p>
-                <form action="https://formdump.codeinstitute.net" method="post">
-                    <label for="first-name">First Name:</label> <br>
-                    <input type="text" name="first-name" id="first-name" required>
-                    <br>
-                    <label for="last-name">Last Name:</label> <br>
-                    <input type="text" name="last-name" id="last-name" required>
-                    <br>
-                    <label for="email">Email Address:</label> <br>
-                    <input type="email" name="email" id="email" required>
-                    <br>
-                    <label for="phone">Phone Number:</label> <br>
-                    <input type="tel" name="phone" id="phone" required>
-                    <br>
-                    <button type="submit"><strong>Contact me!</strong></button>
+                <form action="https://formdump.codeinstitute.net" method="post" id="form-layout">
+                <div id="input-fields">
+                    <div class="column">
+                        <label for="first-name">First Name:</label> <br>
+                        <input type="text" name="first-name" id="first-name" required>
+                        <br>
+                        <label for="last-name">Last Name:</label> <br>
+                        <input type="text" name="last-name" id="last-name" required>
+                        <br>
+                    </div>
+                    <div class="column">
+                        <label for="email">Email Address:</label> <br>
+                        <input type="email" name="email" id="email" required>
+                        <br>
+                        <label for="phone">Phone Number:</label> <br>
+                        <input type="tel" name="phone" id="phone" required>
+                        <br>
+                    </div>
+                </div>
+                    <div>
+                        <button type="submit"><strong>Contact me!</strong></button>
+                    </div>
                 </form>
             </div>
             <div id="practice" class="contact">
