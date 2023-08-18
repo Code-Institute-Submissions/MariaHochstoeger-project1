@@ -137,6 +137,7 @@ The site wants to attract people who face mental or psychological challenges in 
 - Love Running walk-through project for basic structures of header and footer
 - Favicon was generated using favicon.cc 
 - The mock-up image of the site on different devices was generated using techsini.com
+- All images taken from pexels.com, except the headshot of Dr. Himanshu Giri, which is from author's private photos
 
 
 ----
@@ -147,3 +148,4 @@ The site wants to attract people who face mental or psychological challenges in 
 - https://www.w3schools.com/cssref/pr_list-style-position.php for helping me get the bullet points of my list inside the flex container
 - Our group facilitator, Kay Welfare, for her patience and genuine efforts to help. And for not getting tired to repeat certain points over and over again.
 - Again, Kay Welfare, for sharing her readme with us.
+- P
