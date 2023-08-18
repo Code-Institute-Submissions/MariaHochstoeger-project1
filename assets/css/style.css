@@ -323,14 +323,10 @@ footer a i {
 
     .contact {
         flex:1;
+        align-self: center;
     }
 
     #practice {
         order: -1;
-        align-self: center;
-    }
-
-    #contact-details {
-        align-self: center;
     }
 }
