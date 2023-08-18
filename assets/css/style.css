@@ -78,6 +78,10 @@ main {
 
 /* Index page */
 
+.no-show {
+    display: none;
+}
+
 #hero {
     background: url("../images/vienna-background-compressed.jpg") no-repeat center center / cover;
     width: 100%;
