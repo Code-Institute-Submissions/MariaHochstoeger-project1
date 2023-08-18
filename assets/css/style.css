@@ -108,6 +108,7 @@ main {
 }
 
 /* About page */ 
+
 #about {
     display: flex;
     flex-direction: column;
@@ -188,12 +189,13 @@ main {
     list-style-position: inside;
 }
 
-/* About page */
+/* Contact page */
 
 #get-in-touch {
     width: 90vw;
     /* Make sure the bottom doesn't stick to the footer */
     margin-bottom: 30px;
+    /*border: red solid;*/
 }
 
 #get-in-touch p {
@@ -205,6 +207,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /*border: yellow solid;*/
 }
 
 .contact h3 {
@@ -284,6 +287,8 @@ footer a i {
 /* For laptops and larger (min 1024px) */
 
 @media screen and (min-width: 1024px) {
+
+/* Home page */
     #welcome {
         display: flex;
         flex-direction: row;
@@ -296,6 +301,7 @@ footer a i {
         max-width: 800px;
     }
 
+/* About page */
     #about-container {
         display: flex;
         flex-direction: row;
@@ -309,5 +315,22 @@ footer a i {
         margin: 10px 2px 0;
     }
 
+    /* Contact page */
+    #get-in-touch {
+        display:flex;
+        align-items: flex-start;
+    }
 
+    .contact {
+        flex:1;
+    }
+
+    #practice {
+        order: -1;
+        align-self: center;
+    }
+
+    #contact-details {
+        align-self: center;
+    }
 }
