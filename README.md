@@ -45,6 +45,7 @@ The site has the very basic features of a static website.
 - **Contact page**
     - A form encourages visitors to leave their contact details for Dr. Giri to get in touch with them directly.
     - Should the site visitor choose to contact Dr. Giri themselves, they are provided with the address, email and phone details. The email address is provided as a link.
+    - On larger screens, the contact information changes order and is displayed horizontally for a cleaner look.
 
 - **Footer**
     - The footer contains three icons which link to external social media sites.
