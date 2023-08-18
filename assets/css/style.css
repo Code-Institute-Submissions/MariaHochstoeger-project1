@@ -113,6 +113,37 @@ main {
     padding: 20px 0;
 }
 
+#call-to-action {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    /*border: red solid;*/
+}
+
+/*#hero-div {
+    width: 90vw;
+    height: 200px;
+    border: #0056b0 solid 5px;
+    background-color: #a2c5e0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
+
+#hero-button {
+    width: 60vw;
+    padding: 10px 5px 10px;
+}
+
+#hero-button-text {
+    color:#0056b0;
+    text-decoration: none;
+}
+
 /* About page */ 
 
 #about {
@@ -276,7 +307,7 @@ footer a i {
 
     main {
         /* Smaller than top so there is no white line between header and hero image */
-        margin-top: 68px;
+        margin-top: 65px;
         font-size: 140%;
     }
 
