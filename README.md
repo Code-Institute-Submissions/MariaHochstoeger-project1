@@ -137,9 +137,9 @@ The site wants to attract people who face mental or psychological challenges in 
     - No error found.
 
 - Performance, Accessibility, Best Practices, SEO (Lighthouse Chrome Dev Tools)
-    - 
+    - ![Lighthouse rating](assets/images/readme-images/lighthouse-report_project-1.png)
 
-### Browser Testing (section taken from Kay Welfare, results are my own)
+### Browser Testing (section adapted from Kay Welfare, results are my own)
 
 **Layout:** Testing layout and appearance of site for consistency throughout browsers.
 
