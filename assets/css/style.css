@@ -304,17 +304,9 @@ footer a i {
         margin-top: 30px;
     }
 
-    #input-fields {
-        /* Make two columns in form */
-        /*display: flex;*/
-    }*/
-
     .column {
-        
-        /*flex:50%;*/
         min-width: fit-content;
         padding: 0 10px;
-        border: red solid;
     }
 }
 
