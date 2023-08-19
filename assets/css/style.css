@@ -409,6 +409,11 @@ footer a i {
 
 @media screen and (min-width: 1440px) {
 
+
+/* General */ 
+    main {
+        margin-top: 30px;
+    }
 /* Contact page */
     input {
         min-width: 250px;
