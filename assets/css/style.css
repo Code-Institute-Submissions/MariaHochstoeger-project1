@@ -223,7 +223,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0 20px;
+    padding: 20px 20px;
 }
 
 .contact h3 {
@@ -388,16 +388,16 @@ footer a i {
 /* Contact page */
     #get-in-touch {
         display:flex;
-        align-items: flex-start;
+        flex-direction: row;
+        align-items: center ;
     }
 
     .contact {
-        flex:1;
-        align-self: center;
+        flex: 50%;
     }
 
-    #practice {
-        order: -1;
+    #practice-contact {
+        flex: 50%;
     }
 
     input {
