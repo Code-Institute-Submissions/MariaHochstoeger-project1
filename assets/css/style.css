@@ -170,21 +170,21 @@ main {
 #formats-image {
     /* Set background-color in case image doesn't load */
     background-color: #a2c5e0;
-    background: url("../images/blue-sky-with-little-white-flowers-compressed.jpg") no-repeat center center /
+    background: url("../images/formats.jpg") no-repeat center center /
      cover;
 }
 
 #specializations-image {
     /* Set background-color in case image doesn't load */
     background-color: #a2c5e0;
-    background: url("../images/blue-sky-with-sunflowers-compressed.jpg") no-repeat center center /
+    background: url("../images/specializations.jpg") no-repeat center center /
      cover;
 }
 
 #costs-image {
     /* Set background-color in case image doesn't load */
     background-color: #a2c5e0;
-    background: url("../images/blue-sky-with-flower-compressed.jpg") no-repeat center center /
+    background: url("../images/costs.jpg") no-repeat center center /
      cover;
 }
 
@@ -351,12 +351,7 @@ footer a i {
         align-items: flex-end;
         width: 80vw;
         margin: 50px 0;
-        /*border: yellow solid;*/
     }
-
-    /*#about {
-        border: red solid;
-    }*/
 
     .about-child {
         display: flex;
@@ -365,7 +360,6 @@ footer a i {
         align-items: center;
         flex:1;
         margin: 10px 2px 0;
-        /*border: blue solid;*/
         align-self: flex-start;
     }
 
@@ -385,7 +379,6 @@ footer a i {
 
     .about-text {
         margin: 0 40px;
-        /*border: green solid;*/
     }
 
 .about-child h3 {
