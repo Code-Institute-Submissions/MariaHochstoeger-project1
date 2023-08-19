@@ -127,13 +127,12 @@ main {
 }
 
 #hero-button {
-    width: 60vw;
-    padding: 10px 5px 10px;
-}
-
-#hero-button-text {
     color:#0056b0;
     text-decoration: none;
+    border:#0056b0 solid;
+    padding: 10px 30px;
+    background-color: #e6f4f1;
+    border-radius: 10px;
 }
 
 /* About page */ 
@@ -350,6 +349,10 @@ footer a i {
 
     #welcome-text {
         max-width: 800px;
+    }
+
+    #hero-button {
+        padding: 10px 50px;
     }
 
 /* About page */

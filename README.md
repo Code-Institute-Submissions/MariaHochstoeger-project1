@@ -131,10 +131,13 @@ The site wants to attract people who face mental or psychological challenges in 
 ### Validator Testing
 
 - HTML ([W3C Validator](https://validator.w3.org/))
-    - No error found.
+    - 3 errors found: two of these were "section lacks heading". The other one was "The element ```a``` must not be a descendent of the `button` element.
+    - Solution: introduced headings to the two relevant sections and setting them to non-displayed. Styling the `a` as a button and removing the button element.
 
 - CSS ([Jigsaw](https://jigsaw.w3.org/css-validator/))
-    - No error found.
+    - 1 error found: "min-width too many values or values are not recognized: `none`".
+    - Solution: removed min-width.
+
 
 - Performance, Accessibility, Best Practices, SEO (Lighthouse Chrome Dev Tools)
     - ![Lighthouse rating](assets/images/readme-images/lighthouse-report_project-1.png)
