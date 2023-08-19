@@ -300,15 +300,21 @@ footer a i {
     }
 
 /* Contact page */
-    #input-fields {
-        display: flex;
+    #get-in-touch {
+        margin-top: 30px;
     }
 
-    .column {
+    #input-fields {
         /* Make two columns in form */
-        flex:50%;
+        /*display: flex;*/
+    }*/
+
+    .column {
+        
+        /*flex:50%;*/
         min-width: fit-content;
         padding: 0 10px;
+        border: red solid;
     }
 }
 
@@ -412,7 +418,7 @@ footer a i {
 
 /* General */ 
     main {
-        margin-top: 30px;
+        margin-top: 25px;
     }
 /* Contact page */
     input {
