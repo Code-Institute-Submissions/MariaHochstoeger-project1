@@ -153,7 +153,9 @@ The site wants to attract people who face mental or psychological challenges in 
     - Solution: removed min-width.
 
 - Performance, Accessibility, Best Practices, SEO (Lighthouse Chrome Dev Tools)
-    - ![Lighthouse rating](assets/images/readme-images/lighthouse-report_project-1.png)
+Accessibility is at 100, which is what the focus was one.
+Performance is mediocre, also after compressing images.
+    ![Lighthouse rating](assets/images/readme-images/lighthouse-report_project-1.png)
 
 ### Browser Testing (section adapted from Kay Welfare, results are my own)
 
@@ -223,3 +225,4 @@ This site was deployed on GitHub Pages:
 - https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_two_columns_flex for teaching me how to make two columns for the form
 - https://sentry.io/answers/how-do-i-create-an-html-button-that-acts-like-a-link/ for helping me fix the error which came up in W3C testing that an ```a``` -element may not be the descendant of a ```button``` -element
 - My mentor, Adegbenga Adeye, for his input
+- My partner, Himanshu Giri, for providing me with the text input for this project
