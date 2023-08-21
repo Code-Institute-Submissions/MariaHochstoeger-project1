@@ -5,7 +5,7 @@
 This is the website of Dr. Himanshu Giri, an English- and Hindi-speaking psychotherapist with a practice in Vienna, Austria. He also offers sessions online.
 The site is targeted at adults who are seeking professional help in overcoming mental challenges and want to find out whether Dr. Giri could be the right person to provide the support they seek.
 
-Visit the site [here](https://mariahochstoeger.github.io/project1/index.html).
+Visit the site [here](https://mariahochstoeger.github.io/project1/).
 
 ## Design
 
@@ -18,9 +18,11 @@ The first wireframes were made in Balsamiq. Laptop screen sizes were chosen for 
 ### Font and Colour Choices
 **Fonts:** 'REM' was chosen as the headings font for its professional yet not intimidating look. 'Poppins' makes up the main part of the site due to it being a quite neutral but still friendly font.
 
-**Colours:** The colour palette was generated using mycolor.space. The base colour was picked from the header picture (taken from Pexel) which shows a blue sky with some clouds. This particular colour palette was chosen for its calming blue tones.
+**Colours:** The colour palette was generated using mycolor.space. The base colour was picked from the header image (taken from Pexel) which shows a blue sky with some clouds. This particular colour palette was chosen for its calming blue tones. The yellow colour included in the colour palette was ultimately not used in the design as it came across too agitated on screen.
 
-**Images:** Images chosen are either of Dr. Giri, or of Vienna, or of a blue sky backdrop with plants in the foreground for their calming nature.
+![Colour palette](assets/images/readme-images/color-palette_mycolor.space.png)
+
+**Images:** Images besides the header image of the blue sky, are either of Dr. Giri, or of Vienna, or of various therapy settings. All images relate to the content of the page.
 
 ## Features
 
@@ -36,16 +38,18 @@ The site has the very basic features of a static website.
 - **Hero image**
     - The hero image was chosen as it depicts the Schönbrunn castle, one of Vienna's most famous sites. 
     - The relation to Vienna was deemed to be important as this is an English-language website targeted mostly at people located in Vienna. This way, people immediately get an association with Vienna even though the site is not in German language.
-    - Since the rest of the site is quite calm and quiet, I decided to keep the image at full opacity to make it pop.
+    - Also, for those with some more knowledge about psychoanalytics, Sigmund Freud, the "godfather of psychoanalytics" was from and mostly worked in Vienna. In professional circles, Vienna still has a very good reputation when it comes to producing good psychoanalysts/psychotherapists.
+    - Since the rest of the site is quite calm and quiet, it was decided to keep the image at full opacity to make it pop.
 
     ![Hero image](assets/images/readme-images/hero-image.png)
 
 - **Main section**
-    - The structure of the main content is consistent throughout the pages to make them easy to understand and navigate with subheaders giving cues about the content of the individual parts.
-    - Content varies depending on the page. Texts are kept short to help the user find information quickly.
+    - Subheaders on all pages give cues about the content of the individual parts.
+    - Content varies depending on the page. 
+    - Texts are kept short to help the user find information quickly.
 
 - **Home page and call to action**
-    - A picture of Dr. Himanshu Giri greets the user to give them a feeling for who he might be. It is rounded for a softer look.
+    - A picture of Dr. Himanshu Giri greets the user to give them a first impression of him. It is rounded for a softer look.
     - The welcome text gives the user a first understanding of what Dr. Giri offers.
     - Layout is vertical for smaller screens and horizontal to make good use of larger screens.
     - A call to action motivates the user to book a session. The button is a link which directs the user to the contact page.
@@ -53,8 +57,8 @@ The site has the very basic features of a static website.
     ![Home page including headshot of Dr Giri, welcome text and call to action](assets/images/readme-images/home-page-incl-headshot-text-and-call-to-action.png)
 
 - **About page**
-    - Images are kept in line with the theme of the site of the blue sky.
-    - The informations that site visitors will mostly look for is listed in clear lists, using bullet points where too many items make up the list.
+    - Images are related to the content they are associated with. They show pictures of various scenes which one might encounter in a therapy setting.
+    - The information that site visitors will mostly look for is listed in clear list format, using bullet points where too many items make up the list.
     - Little icons give a playful vibe, giving lightness to heavy issues.
     - Layout is vertical for smaller screens and horizontal to make good use of larger screens.
 
