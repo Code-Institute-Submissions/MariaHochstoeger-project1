@@ -29,7 +29,7 @@ The first wireframes were made in Balsamiq. Laptop screen sizes were chosen for 
 ### Font and Colour Choices
 **Fonts:** 'REM' was chosen as the headings font for its professional yet not intimidating look. 'Poppins' makes up the main part of the site due to it being a quite neutral but still friendly font.
 
-**Colours:** The colour palette was generated using mycolor.space. The base colour was picked from the header image (taken from Pexel) which shows a blue sky with some clouds. This particular colour palette was chosen for its calming blue tones. The yellow colour included in the colour palette was ultimately not used in the design as it came across too agitated on screen.
+**Colours:** The colour palette was generated using [mycolor.space](https://mycolor.space/?hex=%23845EC2&sub=1). The base colour was picked from the header image (taken from Pexel) which shows a blue sky with some clouds. This particular colour palette was chosen for its calming blue tones. The yellow colour included in the colour palette was ultimately not used in the design as it came across too agitated on screen.
 
 ![Colour palette](assets/images/readme-images/color-palette_mycolor.space.png)
 
@@ -208,17 +208,18 @@ This site was deployed on GitHub Pages:
 ## Sources
 
 - Love Running walk-through project for basic structures of header and footer
-- Favicon was generated using favicon.cc 
-- The mock-up image of the site on different devices was generated using techsini.com
+- Favicon was generated using [favicon.cc](https://www.favicon.cc/)
+- The mock-up image of the site on different devices was generated using [techsini.com](https://techsini.com/multi-mockup/)
 - All images taken from pexels.com, except the headshot of Dr. Himanshu Giri, which is from author's private photos
-- Images were compressed using iloveimg.com
+- Images were compressed using [iloveimg.com](https://www.iloveimg.com/)
+- Icons were taken from [fontawesome.com](https://fontawesome.com/)
 
 ## Credits
 - Holly from Tutor Support for spotting a space in the import of my Google Fonts which caused problems with my styling
 - https://css-tricks.com/dont-overthink-flexbox-grids/ for helping me figure out how to get the flexbox on my about page to produce same-width children
 - https://www.w3schools.com/cssref/pr_list-style-position.php for helping me get the bullet points of my list inside the flex container
-- Our group facilitator, Kay Welfare, for her patience and genuine efforts to help. And for not getting tired to repeat certain points over and over again.
-- Again, Kay Welfare, for sharing her readme with us.
+- Our group facilitator, Kay Welfare, for her patience and genuine efforts to help. And for not getting tired to repeat certain points over and over again
+- Again, Kay Welfare, for sharing her readme with us
 - https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_two_columns_flex for teaching me how to make two columns for the form
-- https://sentry.io/answers/how-do-i-create-an-html-button-that-acts-like-a-link/ for helping me fix the error which came up in W3C testing that an ```a``` -element may not be the descendant of a ```button``` -element.
-- My mentor, Adegbenga Adeye, for his input.
+- https://sentry.io/answers/how-do-i-create-an-html-button-that-acts-like-a-link/ for helping me fix the error which came up in W3C testing that an ```a``` -element may not be the descendant of a ```button``` -element
+- My mentor, Adegbenga Adeye, for his input
