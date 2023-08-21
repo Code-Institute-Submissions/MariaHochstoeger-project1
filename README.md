@@ -33,7 +33,7 @@ The first wireframes were made in Balsamiq. Laptop screen sizes were chosen for 
 
 ![Colour palette](assets/images/readme-images/color-palette_mycolor.space.png)
 
-**Images:** Images besides the header image of the blue sky, are either of Dr. Giri, or of Vienna, or of various therapy settings. All images relate to the content of the page while not being too flat or direct (ie instead of an image of money changing hands, an image of shaking hands was chosen).
+**Images:** Images besides the header image of the blue sky, are either of Dr. Giri, or of Vienna, or of various therapy settings. All images relate to the content of the page while not being too direct (ie instead of an image of money being exchanged, an image of shaking hands was chosen).
 
 ## Features
 
@@ -150,12 +150,12 @@ The site wants to attract people who face mental or psychological challenges in 
 
 - CSS ([Jigsaw](https://jigsaw.w3.org/css-validator/))
     - 1 error found: "min-width too many values or values are not recognized: `none`".
-    - Solution: removed min-width.
+    - Solution: removed min-width. It wasn't necessary anyways.
 
 - Performance, Accessibility, Best Practices, SEO (Lighthouse Chrome Dev Tools)
     - Accessibility is at 100, which is what the focus was one.
 Performance is mediocre, also after compressing images.
-    ![Lighthouse rating](assets/images/readme-images/lighthouse-report_project-1.png)
+    - ![Lighthouse rating](assets/images/readme-images/lighthouse-report_project-1.png)
 
 ### Browser Testing (section adapted from Kay Welfare, results are my own)
 
@@ -168,8 +168,10 @@ Performance is mediocre, also after compressing images.
 | Chrome      | ✔          | ✔             |
 | Edge        | ✔          | ✔             |
 | Firefox     | ✔          | ✔             |
-| Safari      | not available to me         |
+| Safari*     | only available to me on iPhone |
 | IE          |deprecated by Microsoft, not tested|
+
+*I asked my peers to review the site for me in Safari and one colleague came back with no bugs found (he made suggestions on styling which I did not implement since I considered them personal preference).
 
 ### Manual Testing (section adapted from Kay Welfare, results are my own)
 
