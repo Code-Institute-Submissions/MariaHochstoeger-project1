@@ -153,7 +153,7 @@ The site wants to attract people who face mental or psychological challenges in 
     - Solution: removed min-width.
 
 - Performance, Accessibility, Best Practices, SEO (Lighthouse Chrome Dev Tools)
-Accessibility is at 100, which is what the focus was one.
+    - Accessibility is at 100, which is what the focus was one.
 Performance is mediocre, also after compressing images.
     ![Lighthouse rating](assets/images/readme-images/lighthouse-report_project-1.png)
 
