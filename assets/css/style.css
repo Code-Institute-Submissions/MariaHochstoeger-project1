@@ -62,6 +62,9 @@ nav {
     border-bottom: 1px solid #0056b0;
 }
 
+.no-show {
+    display: none;
+}
 
 /* Main */
 main {
@@ -77,10 +80,6 @@ main {
 }
 
 /* Index page */
-
-.no-show {
-    display: none;
-}
 
 #hero {
     background: url("../images/vienna-background-compressed.jpg") no-repeat center center / cover;
@@ -143,7 +142,7 @@ main {
     justify-content: center;
     align-items: center;
     width: 90vw;
-    /* Make sure that heading is not pushed directly against header or footer */
+    /* Make sure that content is not pushed directly against header or footer */
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -294,7 +293,7 @@ footer a i {
     }
 
     main {
-        /* Smaller than on smaller screens so there is no white line between header and hero image */
+        /* Set margin-top smaller than on smaller screens so there is no white line between header and hero image */
         margin-top: 65px;
         font-size: 140%;
     }
@@ -379,7 +378,7 @@ footer a i {
         margin: 0 40px;
     }
 
-.about-child h3 {
+    .about-child h3 {
        margin: 0;
 }
 
