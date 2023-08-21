@@ -7,6 +7,15 @@ The site is targeted at adults who are seeking professional help in overcoming m
 
 Visit the site [here](https://mariahochstoeger.github.io/project1/).
 
+## Table of Contents
+
+1. [Design](#design)
+2. [Features](#features)
+3. [UX](#ux)
+4. [Testing](#testing)
+5. [Sources](#sources)
+6. [Credits](#credits)
+
 ## Design
 
 The site was created with persons in mind who, possibly in a time of distress, are looking for help in the form of psychotherapy. The necessary information should be easy to find and give the visitor a good picture of who Dr. Himanshu Giri is and what he can offer. At the same time, a balance needs to be struck so as to not reveal too much information as the therapist and his/her background should not interfere with the therapy process.
@@ -15,6 +24,8 @@ The site was created with persons in mind who, possibly in a time of distress, a
 
 The first wireframes were made in Balsamiq. Laptop screen sizes were chosen for the mock-up in order to have an overview of all information which needed to be added. A mockup of a mobile screen was also added since the site was then built using the mobile-first approach.
 
+![Wireframe for mobile](assets/images/readme-images/wireframe-mobile.png)
+
 ### Font and Colour Choices
 **Fonts:** 'REM' was chosen as the headings font for its professional yet not intimidating look. 'Poppins' makes up the main part of the site due to it being a quite neutral but still friendly font.
 
@@ -22,7 +33,7 @@ The first wireframes were made in Balsamiq. Laptop screen sizes were chosen for 
 
 ![Colour palette](assets/images/readme-images/color-palette_mycolor.space.png)
 
-**Images:** Images besides the header image of the blue sky, are either of Dr. Giri, or of Vienna, or of various therapy settings. All images relate to the content of the page.
+**Images:** Images besides the header image of the blue sky, are either of Dr. Giri, or of Vienna, or of various therapy settings. All images relate to the content of the page while not being too flat or direct (ie instead of an image of money changing hands, an image of shaking hands was chosen).
 
 ## Features
 
@@ -67,8 +78,7 @@ The site has the very basic features of a static website.
 - **Contact page**
     - A form encourages visitors to leave their contact details for Dr. Giri to get in touch with them directly.
     - Should the site visitor choose to contact Dr. Giri themselves, they are provided with the address, email and phone details. The email address is provided as a link.
-    - On larger screens, the contact information changes order and is displayed horizontally for a cleaner look.
-    - Input fields of the form are slightly enlarged where possible to give the user more space to fill in their information.
+    - On larger screens, the contact information is displayed horizontally and separated into two columns for a cleaner look.
 
     ![Contact page](assets/images/readme-images/contact-page.png)
 
@@ -85,7 +95,7 @@ The site has the very basic features of a static website.
 
     Dr. Giri has given a Ted Talk. I would like to embed this video directly on the about page.
 
-- Streamline the about page
+- Improve the about page
 
     Make the costs on the about page into a table giving an easier overview to the site visitor.
 
@@ -123,10 +133,10 @@ The site wants to attract people who face mental or psychological challenges in 
 - I have confirmed that the form works and each field is required. There are error messages if a field is not filled out. If it is filled incorrectly, such as an @ missing in an email, or the phone number field containing letters, there are appropriate error messages.
 - I confirmed that header and navbar are easily readable and understandable.
 
-### Bugs
+### Fixed Bugs
 
 - Imported Google Fonts into html via <link>. This caused css-classes and -ids to not be applied. Fixed it by removing Google Fonts link from index.html and instead importing Google Fonts into style.css.
-- Fixed flexbox-styling by applying differently colored borders to better understand the individual elements' behaviours. Border colors were removed after fixing the styling.
+- Various flexbox styling problems. Fixed flexbox styling by applying differently colored borders to better understand the individual elements' behaviours. Border colors were removed after fixing the styling.
 
 ### Unfixed Bugs
 
@@ -159,7 +169,41 @@ The site wants to attract people who face mental or psychological challenges in 
 | Safari      | not available to me         |
 | IE          |deprecated by Microsoft, not tested|
 
+### Manual Testing (section adapted from Kay Welfare, results are my own)
 
+| Feature     | Expect      | Action        | Result |
+| :---------: | :----------:| :-----------: | :-----:|
+| **Logo Icon**   | When clicked, home page will open   | Clicked Logo Icon  | Home page opened when clicked |
+| **Navbar Buttons**  | When clicked, the respective page will open  | Clicked all individual navbar buttons | All respective pages opened when button was clicked |
+| **Book A Session Now! Button** | When clicked, Contact page will open  | Clicked on the Book A Session Now! Button | Contact page opens |
+| **Email link on contact page** | When clicked, a blank email will open with the email address as the recipient | Click email link | New blank email opens with email address as recipient |
+| **Social link icons** | Social link icons open relevant websites in new tab when clicked | Click all individual icons | All respective sites open in new tab |
+| **Form submit button** | Form submits when submit button is clicked | Fill out form and click submit button | CI form dump page opens and displays form contents |
+| **Required form fields** | Form will not submit if required fields are blank and/or filled incorrectly, and fields will be highlighted and flagged | Fill out form incorrectly | Form does not submit and highlights incorrectly filled-in fields and gives prompts what may be wrong (eg @-sign missing in email address field) |
+
+### Testing User Stories (section adapted from Kay Welfare, results are my own)
+
+| Expectation                         | Result                          |
+| :---------------------------------: | :------------------------------:|
+| I want to confirm that Dr. Giri is a qualified psychotherapist | As a visitor, I can see that Dr. Giri is a psychotherapist on the home page, his full title is visible on the contact page |
+| I want to know which languages Dr. Giri speaks | As a visitor, I can find the languages which Dr. Giri offers sessions in on the about page |
+| I want to learn about the types of sessions Dr. Giri offers | As a visitor, I can find the types of sessions which Dr. Giri offers on the about page |
+| I want to know how much a session costs | As a visitor, I can find the costs of the various types of sessions on the about page |
+| I want to find out whether Dr. Giri specializes in the field which I struggle with | As a visitor, I can find the fields Dr. Giri specializes in on the about page |
+| I want to see where Dr. Giri is located | As a visitor, I can find Dr. Giri's practice's address on the contact page |
+| I want to be able to get in contact with Dr. Giri in the manner that I choose to. | As a visitor, I can choose to get in contact with Dr. Giri in the manner I prefer, whether this is to send an email, or call, or have Dr. Giri contact me |
+| I want to see a mobile friendly layout and responsive design | As a visitor, I have a good view of the site on mobile device without overflow or side-scrolling |
+
+## Deployment
+
+This site was deployed on GitHub Pages:
+- From the repository, first navigate to "Settings" (top of the page) and then "Pages" (left of the newly opened page)
+- Under "Source" choose "Deploy from a Branch" in the dropdown menu
+- Choose the "main" Branch, and folder "/(root)"
+- Click "save"
+- The website is subsequently deployed (this may take a few minutes) on GitHub Pages
+- To get there, in the "Code" tab of the repository, on the right-hand side under "Environments" click on "github-pages"
+- On the newly opened page, on the right-hand side, click on "View deployment"
 
 ## Sources
 
@@ -167,10 +211,7 @@ The site wants to attract people who face mental or psychological challenges in 
 - Favicon was generated using favicon.cc 
 - The mock-up image of the site on different devices was generated using techsini.com
 - All images taken from pexels.com, except the headshot of Dr. Himanshu Giri, which is from author's private photos
--
-
-
-----
+- Images were compressed using iloveimg.com
 
 ## Credits
 - Holly from Tutor Support for spotting a space in the import of my Google Fonts which caused problems with my styling
@@ -180,3 +221,4 @@ The site wants to attract people who face mental or psychological challenges in 
 - Again, Kay Welfare, for sharing her readme with us.
 - https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_two_columns_flex for teaching me how to make two columns for the form
 - https://sentry.io/answers/how-do-i-create-an-html-button-that-acts-like-a-link/ for helping me fix the error which came up in W3C testing that an ```a``` -element may not be the descendant of a ```button``` -element.
+- My mentor, Adegbenga Adeye, for his input.
